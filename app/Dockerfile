@@ -1,3 +1,3 @@
-FROM pallavdevops.azurecr.io/pallavdevops/nodeapp:base
+FROM node:latest
 COPY index.js /app/user/index.js
 CMD bin/web
